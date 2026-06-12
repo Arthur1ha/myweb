@@ -105,6 +105,14 @@
     --section-padding: 64px;
   }
 
+  .about-layout {
+    flex-direction: column;
+  }
+
+  .about-photo {
+    width: 140px;
+  }
+
   .nav__hamburger {
     display: flex;
   }
