@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/Users/24225/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/scripts/start-server.sh *)",
+      "Bash(bash *)",
+      "Bash(curl -s http://localhost:64795)",
+      "Bash(node \"C:/Users/24225/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/brainstorming/scripts/server.cjs\" --project-dir \"D:/study/git/myweb\")",
+      "Bash(python3 *)",
+      "Bash(node *)",
+      "Bash(git add *)",
+      "Skill(update-config)"
+    ]
+  }
+}
