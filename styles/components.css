@@ -185,3 +185,21 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+/* ── Entrance animations ── */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero__eyebrow.fade-up  { transition-delay: 0s; }
+.hero__name.fade-up     { transition-delay: 0.1s; }
+.hero__tagline.fade-up  { transition-delay: 0.2s; }
+.hero__bio.fade-up      { transition-delay: 0.3s; }
+.hero .btn.fade-up      { transition-delay: 0.4s; }
