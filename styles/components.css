@@ -202,4 +202,4 @@
 .hero__name.fade-up     { transition-delay: 0.1s; }
 .hero__tagline.fade-up  { transition-delay: 0.2s; }
 .hero__bio.fade-up      { transition-delay: 0.3s; }
-.hero .btn.fade-up      { transition-delay: 0.4s; }
+.section--hero .btn.fade-up { transition-delay: 0.4s; }

@@ -101,6 +101,10 @@
 
 /* ── Mobile ── */
 @media (max-width: 640px) {
+  :root {
+    --section-padding: 64px;
+  }
+
   .nav__hamburger {
     display: flex;
   }
@@ -130,12 +134,6 @@
 
   .nav__links a:last-child {
     border-bottom: none;
-  }
-}
-
-@media (max-width: 640px) {
-  :root {
-    --section-padding: 64px;
   }
 
   .projects-grid {
