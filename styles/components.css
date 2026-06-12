@@ -99,6 +99,18 @@
   margin-bottom: 8px;
 }
 
+.project-card--more {
+  border-style: dashed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.project-card__placeholder--more {
+  font-size: 24px;
+  letter-spacing: 8px;
+  color: var(--color-secondary);
+}
+
 .project-card__desc {
   font-size: 14px;
   color: var(--color-secondary);
